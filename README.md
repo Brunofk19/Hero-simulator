@@ -11,6 +11,3 @@ app.use(cors()); app.use(express.json());
 if (heroes) { res.json({ accountId, heroes }); } else { res.status(404).json({ error: 'Conta não encontrada' }); } });
 
 app.listen(PORT, () => { console.log(Servidor rodando em http://localhost:${PORT}); });
-
-npm install express cors  
-node index.jscd hero-simulator npm install
